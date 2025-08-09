@@ -44,5 +44,7 @@
     "emitDeclarationOnly": false,
     "moduleResolution": "bundler",
     "esModuleInterop": true
-  }
+  },
+  "include": ["src/**/*", "types/**/*.d.ts"],
+  "exclude": ["tsup.config.ts", "vitest.config.ts", "playwright.config.ts"]
 }
